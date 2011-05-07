@@ -1,0 +1,13 @@
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log opened at 2011-04-28 13:54:15
+exit
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log closed at 2011-04-28 13:54:24
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log opened at 2011-04-28 13:55:05
+project --topLevelPackage com.aries.springldap
+persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+entity --class ~.SimpleCrud --testAutomatically 
+field string --fieldName message --notNull
+controller all --package ~.web
+security setup
+perform eclipse
+exit
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log closed at 2011-04-28 13:59:56
